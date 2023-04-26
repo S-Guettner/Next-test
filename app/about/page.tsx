@@ -2,14 +2,14 @@ import { FC } from 'react'
 import Link from 'next/link'
 
 interface pageProps {
-
+  
 }
 
 const page: FC<pageProps> = ({}) => {
   return (
     <main>
-      <h1>Home</h1>
-      <Link href='/about'>LINK TO ABOUT</Link>
+        <h1>ABOUT</h1>
+        <Link href='/'>LINK TO HOME</Link>
     </main>
   )
 }
